@@ -4,18 +4,21 @@
     box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  background-color:black;
-  color: rgb(255, 255, 255);
-  font-family: Arial, sans-serif;
-}
-
 :root{
+    --background-color: #121314;
+    --banner-background: ;
     --primary-color: ;
     --secondary-color: ;
     --tertiary-color: ;
 }
+
+body {
+  margin: 0;
+  background-color:var(--background-color);
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+}
+
 
 body{
     display: flex;
