@@ -10,12 +10,20 @@
     --tertiary-color: ;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
 header{
     display: flex;
     justify-content: space-between;
+    gap: 500px;
+    margin: 0 auto;
     padding: 10px;
     nav{
-        padding: 20px;
+        padding: 10px;
     }
 }
 
@@ -31,6 +39,22 @@ main{
     p{
         max-width: 1000px;
         border: solid 1px black;
+    }
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        li{
+            display: flex;
+            gap: 5px;
+        }
     }
 }
 
