@@ -19,21 +19,23 @@ body {
     justify-content: center;
     background-color: var(--background-color);
     color: rgb(255, 255, 255);
-    font-family: Arial, sans-serif;
+    font-family: jetbrains mono;
 }
 
 header {
     background-color: var(--banner-background);
-    color: rgb(104, 44, 169);
     display: flex;
     justify-content: space-between;
     padding: 15px 100px;
     text-decoration: none;
     align-items: center;
 
+    h1{
+        font-family: Arial, sans-serif;
+        color: rgb(104, 44, 169);
+    }
     nav {
         padding: 20px;
-        font-family: monospace;
         display: flex;
         gap: 100px;
     }
