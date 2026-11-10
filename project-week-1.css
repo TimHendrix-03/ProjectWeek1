@@ -23,9 +23,6 @@
   text-decoration: none;
   font-size: 14px;
   transition: color 0.2s;
-  a:hover{
-    
-  }
 }
 
 .navbar a:hover {
@@ -34,7 +31,6 @@
 
 body {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     justify-content: center;
     background-color: var(--background-color);
@@ -83,8 +79,6 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    align-items: center;
-
     ul {
         display: flex;
         flex-direction: column;
@@ -117,22 +111,29 @@ main {
     border: solid 1px black;
 }
 
-.block1 {
-    width: 300px;
-    height: auto;
-    border: solid 1px rgb(104, 105, 116);
+.block1 {border: solid 1px rgb(104, 105, 116);}
+.block2 {border: solid 1px rgb(104, 105, 116);}
+.block3 {border: solid 1px rgb(104, 105, 116);}
+
+.students{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1200px;   
+    margin: 100px auto; 
+    div{
+        border: none;
+    }
 }
 
-.block2 {
-    width: 300px;
-    height: auto;
-    border: solid 1px rgb(104, 105, 116);
-}
-
-.block3 {
-    width: 300px;
-    height: auto;
-    border: solid 1px rgb(104, 105, 116);
+.lists{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    ul{
+        margin-left: 20px;
+    }
 }
 
 footer {
