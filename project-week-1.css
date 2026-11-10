@@ -111,9 +111,23 @@ main {
     border: solid 1px black;
 }
 
-.block1 {border: solid 1px rgb(104, 105, 116);}
-.block2 {border: solid 1px rgb(104, 105, 116);}
-.block3 {border: solid 1px rgb(104, 105, 116);}
+.block1 {
+    width: 300px;
+    height: auto;
+    border: solid 1px rgb(104, 105, 116);
+}
+
+.block2 {
+    width: 300px;
+    height: auto;
+    border: solid 1px rgb(104, 105, 116);
+}
+
+.block3 {
+    width: 300px;
+    height: auto;
+    border: solid 1px rgb(104, 105, 116);
+}
 
 .students{
     display: flex;
