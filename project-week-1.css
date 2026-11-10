@@ -12,6 +12,26 @@
     --tertiary-color: ;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+  a:hover{
+    
+  }
+}
+
+.navbar a:hover {
+  color: #dded00;
+}
+
 body {
     display: flex;
     justify-content: center;
