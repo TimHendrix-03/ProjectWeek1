@@ -1,114 +1,119 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --background-color: #121314;
-    --banner-background:  #24292E;
+    --banner-background: #24292E;
     --primary-color: ;
     --secondary-color: ;
     --tertiary-color: ;
 }
 
 body {
-  margin: 0;
-  background-color:var(--background-color);
-  color: rgb(255, 255, 255);
-  font-family: Arial, sans-serif;
-}
-
-
-body{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     flex-direction: column;
-    max-width: 1200px;
     justify-content: center;
-    margin: 0 auto;
+    background-color: var(--background-color);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
 }
-header{
+
+header {
+    background-color: var(--banner-background);
     color: rgb(104, 44, 169);
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px 100px;
     text-decoration: none;
-    margin:0 auto;
-    /* padding: 55px; */
-    width: 1200px;
     align-items: center;
-    nav{
-    padding: 20px;
-    font-family: monospace;
-    display: flex;
-    gap: 100px;
-}
+
+    nav {
+        padding: 20px;
+        font-family: monospace;
+        display: flex;
+        gap: 100px;
+    }
 }
 
-main{
+main {
     padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
-.about{
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 100px auto;
-    p{
+
+    p {
         max-width: 1000px;
         border: rgb(104, 105, 116);
     }
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-    ul{
+
+    ul {
         display: flex;
         flex-direction: column;
         gap: 15px;
-        li{
+
+        li {
             display: flex;
             gap: 5px;
         }
     }
 }
 
-.student-experiences{
+.student-experiences {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 100px auto;
 }
 
-.experience-blocks{
+.experience-blocks {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.block{
+.block {
     width: 300px;
     height: auto;
     border: solid 1px black;
 }
-    .block1{
+
+.block1 {
     width: 300px;
     height: auto;
     border: solid 1px rgb(104, 105, 116);
-    }
-    .block2{
+}
+
+.block2 {
     width: 300px;
     height: auto;
     border: solid 1px rgb(104, 105, 116);
-    }
-    .block3{
-     width: 300px;
+}
+
+.block3 {
+    width: 300px;
     height: auto;
     border: solid 1px rgb(104, 105, 116);
-    }
+}
+
+footer {
+    background-color: var(--banner-background);
+    padding: 25px;
+}
