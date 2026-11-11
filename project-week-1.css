@@ -187,3 +187,7 @@ footer {
 .contact a:hover {
   color: rgb(104, 44, 169)
 }
+.titleafter{
+    color: aqua;
+    font-size: 30px;
+}
