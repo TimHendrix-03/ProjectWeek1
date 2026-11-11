@@ -190,8 +190,11 @@ footer {
     color: rgb(242, 245, 245);
     font-size: 30px;
     justify-content: center;
-   
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
+   
 .textafter{
   border: solid 1px rgb(104, 105, 116);
   color: red;
