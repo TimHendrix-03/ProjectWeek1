@@ -124,6 +124,10 @@ main {
     width: 300px;
     height: auto;
     border: solid 1px black;
+    border-radius: 8px;
+    p{
+        padding: 10px;
+    }
 }
 
 .block1 {
