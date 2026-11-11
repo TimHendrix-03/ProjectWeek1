@@ -187,6 +187,13 @@ footer {
   color: rgb(104, 44, 169)
 }
 .titleafter{
-    color: aqua;
+    color: rgb(242, 245, 245);
     font-size: 30px;
+    justify-content: center;
+   
+}
+.textafter{
+  border: solid 1px rgb(104, 105, 116);
+  color: red;
+  margin: 50px;
 }
