@@ -63,15 +63,42 @@ main {
     max-width: 1200px;
 }
 
-.info-main{
-    margin-top: 50px;
-}
+.info-main{margin: 50px auto;}
 
 .general-information{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    p{color: var(--primary-color);}
+}
+
+.events{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 20px;
+    .box{
+        width: 400px;
+        height: auto;
+        border: solid 1px white;
+        padding: 10px;
+        border-radius: 8px;
+        color: var(--primary-color);
+        li{
+            list-style-type: none;
+            font-size: 18px;
+        }
+        p{padding: 10px;}
+        a{
+            display: flex;
+            justify-content: flex-start;
+            max-width: 100px;
+            padding: 5px;
+            text-decoration: none;
+            background-color: var(--primary-color);
+            color: black;
+            border-radius: 8px;
+        }
+    }
 }
 
 .lists{
