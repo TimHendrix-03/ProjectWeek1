@@ -96,7 +96,6 @@ main {
 .general-info {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 
     ul {
         display: flex;
@@ -125,8 +124,10 @@ main {
     height: auto;
     border: solid 1px black;
     border-radius: 8px;
-    p{
+    p{padding: 10px}
+    a{
         padding: 10px;
+        color: white;
     }
 }
 
