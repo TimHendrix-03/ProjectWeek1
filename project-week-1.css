@@ -69,11 +69,23 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 100px auto;
+    gap: 20px;
 
     p {
         max-width: 1000px;
         border: rgb(104, 105, 116);
     }
+}
+
+.during{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    h2{
+        display: flex;
+        justify-content: center;
+        }
+    a{ color: white;}
 }
 
 .info{
