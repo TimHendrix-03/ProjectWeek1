@@ -71,6 +71,12 @@ main {
     gap: 30px;
 }
 
+.stages{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+}
+
 .events{
     display: flex;
     justify-content: center;
