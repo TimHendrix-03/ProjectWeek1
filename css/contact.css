@@ -51,6 +51,7 @@ header {
         font-family: Arial, sans-serif;
         color: rgb(104, 44, 169);
     }
+    a{text-decoration: none;}
     nav {
         padding: 20px;
         display: flex;
